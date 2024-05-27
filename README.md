@@ -1,4 +1,5 @@
 # APCAPS Project
+[![Dependencies RStudio](https://github.com/MarianaGlezU/APCAPS-project/blob/main/.github/workflows/r.yml/badge.svg)](https://github.com/MarianaGlezU/APCAPS-project/blob/main/.github/workflows/r.yml)
 ## Overview
 Understanding the impact of cardiometabolic diseases and diagnosis status on mental health in rural India is crucial for estimating the burden of such diseases. This research will explore the relationship between cardiometabolic diseases on whether the risk of developing depression is affected by diagnosis status. We hypothesize that people with diagnosed cardiometabolic disease have a higher incidence of depression compared to those with disease based on screening or without either condition.
 
