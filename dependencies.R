@@ -1,4 +1,4 @@
-packages <- c(
+install.packages(  
   "skimr",
   "janitor",
   "survival",
@@ -7,8 +7,5 @@ packages <- c(
   "dplyr",
   "tidyverse",
   "haven",
-  "sjPlot",
   "gtsummary"
 )
-
-install.packages(packages)
