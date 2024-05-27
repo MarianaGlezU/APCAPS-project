@@ -1,4 +1,5 @@
-install.packages("skimr",
+install.packages(c(
+"skimr",
 "janitor",
 "survival",
 "ranger",
@@ -6,4 +7,5 @@ install.packages("skimr",
 "dplyr",
 "tidyverse",
 "haven",
-"gtsummary")
+"gtsummary"
+))
