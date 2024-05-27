@@ -33,5 +33,5 @@ jobs:
       - name: Install dependencies
         run: |
           install.packages(c("remotes", "rcmdcheck"))
-          Rscript dependencies.R
+          $Rscript dependencies.R
         shell: Rscript {0}
