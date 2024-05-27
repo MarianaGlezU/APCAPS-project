@@ -6,7 +6,7 @@
 # See https://github.com/r-lib/actions/tree/master/examples#readme for
 # additional example workflows available for the R community.
 
-name: R Dependencies check
+name: R Dependencies Check
 
 on:
   push:
@@ -33,4 +33,5 @@ jobs:
       - name: Install dependencies
         run: |
           install.packages(c("remotes", "rcmdcheck"))
+          Rscript dependencies.R
         shell: Rscript {0}
