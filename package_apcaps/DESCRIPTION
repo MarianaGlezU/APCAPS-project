@@ -1,0 +1,10 @@
+Package: projectapcaps
+Type: Package
+Title: Data processing pipeline functions (ProjectAPCAPS)
+Version: 0.1.0
+Author: Mariana Gonzalez Utrilla
+Maintainer: The package maintainer <mglzu24@gmail.com>
+Description: Data processing pipeline functions that facilitate coding and analysis
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
