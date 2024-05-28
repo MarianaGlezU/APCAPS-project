@@ -11,11 +11,17 @@ I merged the two datasets for a complete case analysis for a 10-year period comp
 
 ## Project Description
 * Descriptive Multivar Analysis: 
- 
+ In this folder you can find the step by step analysis of the project. Starting by merging both datasets by partiicpant ID, so only including
+ participants who had been present in both cohort (2010-12 and 2020-22) and who had no missing information as it was a complete case analysis.
+ A univariate analysis was first performed prior to a stepwise multivariate logistic model. 
 * Exposure Variables:
-
+ Only using the third cohort, I chose, regrouped and created the exposure variables for the project along with the covariates. 
 * Outcome Variables
-
+ Only using questions from the PHQ-9 (Patient Health Questionnaire) in the fourth cohort and creating a new variable to determine if participants had (or not) 
+ depression after a cut-off of 10. 
+* APCAPS Data Procesing Package:
+ This package was created specfically for this project but it can also be used for managing other projects using apcaps datasets. It can be used to build 
+ data pipleines for other apcaps projects.
   
 ## Prerequisites
 To run the projects the following libraries are required:
@@ -30,8 +36,15 @@ library(tidyverse)
 library(haven)
 library(sjPlot)
 library(gtsummary)
+library(devtools)
 ```
 
+## Installation: APCAPS Data Processing Package
+
+To install the Data Processing Package to build data pipelines you can use RStudio dev tools, running the following command:
+```
+install_github("MarianaGlezU/APCAPS-project/package_apcaps")
+```
 ## Analysis variables
 Provide context for variables and their relevance in the analysis:
 
@@ -50,4 +63,18 @@ Provide context for variables and their relevance in the analysis:
 | `sleep_cat`                    |Hours a day they slept on average, <6, 6-8 or >8 hours
 | `intake_category` |Average consumption, portion frequency, and frequency of consumption per every fruit (16) and vegetable (24) in the FFQ.  
 
- 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt) file for more details.
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions or improvements, feel free to submit a pull request or open an issue.
+
+Steps to Contribute:
+* Fork the repository.
+* Clone your fork to your local machine.
+* Create a new branch for your feature or bug fix.
+* Make your changes and commit them with descriptive messages.
+* Push your changes to your fork.
+* Open a pull request on the main repository.
